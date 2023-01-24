@@ -3,7 +3,19 @@ package operadores;
 public class ExemploOperadores {
 
     public static void main(String[] args) {
+        
+        // Nomes para organização
+        String etapa1 = "// Operadores de Atribuição";
+        String etapa2 = "// Operadores Aritméticos";
+        String etapa2_1 = "// Concatenação";
+        String etapa3 = "// Operadores de Incrimento/Descremento";
+        String etapa4 = "// Operadores de Atribuição & Aritmético (soma e divisão)";
+        String etapa5 = "// Operadores de Comparadores de igualdade/diferença";
+        String etapa6 = "// Operadores Relacionais";
+        String etapa7 = "// Operadores Relacioanis";
+        
         // Operador de Atribuição
+        System.out.println(etapa1);
         int numero1 = 2;
         System.out.println(numero1);
         
@@ -16,6 +28,7 @@ public class ExemploOperadores {
         System.out.println(numero2);
         
         //  Operadores Aritméticos
+        System.out.println(etapa2);
         int soma = 2 + 2;
         int soma2 = soma + 2;
         int soma3 = soma + soma2;
@@ -38,12 +51,14 @@ public class ExemploOperadores {
         System.out.println(mod);
         
         // Concatenação
+        System.out.println(etapa2_1);
         String primeiroNome = "Guilherme";
         String sobrenome = "Chitolina";
         String nome = primeiroNome + " " + sobrenome;
         System.out.println(nome);
         
         // Operadores de Incrimento/Descremento
+        System.out.println(etapa3);
         int contador = 1;
         contador++; 
         System.out.println(++contador);
@@ -51,6 +66,7 @@ public class ExemploOperadores {
         System.out.println(contador);
         
         // Operadores de Atribuição & Aritmético (soma e divisão)
+        System.out.println(etapa4);
         int numero3 = 1;
         numero3 += 5;
         System.out.println(numero3);
@@ -60,6 +76,7 @@ public class ExemploOperadores {
         System.out.println(numero4);
         
         // Operadores de Comparadores de igualdade/diferença
+        System.out.println(etapa5);
         int numeroComp1 = 1;
         int numeroComp2 = 2;
         boolean comparacao1 = numeroComp1 == numeroComp2;
@@ -72,6 +89,7 @@ public class ExemploOperadores {
         System.out.println(stringComp1 != stringComp2);
         
         // Operadores Relacionais
+        System.out.println(etapa6);
         int numeroComp3 = 2;
         int numeroComp4 = 7;
         boolean comparacao2 = numeroComp3 > numeroComp4;
@@ -80,6 +98,7 @@ public class ExemploOperadores {
         System.out.println(numeroComp3 > numeroComp4);
         
         // Operadores lógicos
+        System.out.println(etapa7);
         boolean expressao1 = true == false;
         boolean expressao2 = 5 >= 10;
         boolean expressao3 = "AB" != "CD";
@@ -93,10 +112,3 @@ public class ExemploOperadores {
     }
 
 }
-// Operadores de Atribuição
-//  Operadores Aritméticos
-// Operadores de Incrimento/Descremento
-//Operadores de Atribuição & Aritmético (soma e divisão)
-//Operadores de Comparadores de igualdade/diferença
-// Operadores Relacionais
-// Operadores lógicos

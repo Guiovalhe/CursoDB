@@ -18,7 +18,7 @@ public class RandomNumbers {
             }
         }
         System.out.println();
-        System.out.println("Menor nÃºmero gerado: " + min);
-        System.out.println("Maior nÃºmero gerado: " + max);
+        System.out.println("Menor número gerado: " + min);
+        System.out.println("Maior número gerado: " + max);
     }
 }

@@ -8,8 +8,7 @@ public class Array {
    //                       0  1  2  3        0   1   2   3     0  1  2  3          0   1   2   3
     
         
-        
-        
+         
         int soma = 0;
         int colunaAtual = 0;
         
@@ -21,5 +20,8 @@ public class Array {
             colunaAtual++;
         }
         System.out.println(soma);
+        
+
+        
     }
 }

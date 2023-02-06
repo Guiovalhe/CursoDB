@@ -11,6 +11,7 @@ public class Pessoa {
     
     public String getDoc() {
         return this.doc;
+        
     }
     public void setDoc(String doc) {
         this.doc = doc;
@@ -19,8 +20,8 @@ public class Pessoa {
     public String getNome() {
         return this.nome;
     }
-
     public void setNome(String nome) {
         this.nome = nome;
     }
+    
 }
